@@ -1,4 +1,4 @@
-# Brute Force Activity
+## Brute Force Activity
 
 | Technique ID | Technique Name |
 |---|---|
