@@ -25,3 +25,14 @@ Trigger alert when:
 | Low | Suspicious but low-confidence activity |
 | Medium | Potential malicious behavior requiring review |
 | High | Likely malicious activity requiring escalation |
+
+---
+
+# Suspicious Network Traffic Detection Logic
+
+Trigger alert when:
+
+- Outbound traffic targets uncommon external IP addresses
+- Connections occur over high-risk or non-standard ports
+- Repeated outbound connection attempts are observed
+- Traffic patterns deviate from normal baseline behavior
