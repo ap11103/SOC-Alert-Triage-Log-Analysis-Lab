@@ -34,6 +34,36 @@ Contains screenshots related to analysis and investigation workflows.
 
 ---
 
+## Simulated Scenarios
+
+### Brute Force Authentication Investigation
+- Simulated repeated failed login attempts targeting privileged accounts
+- Identified suspicious external IP activity
+- Documented findings and mitigation recommendations
+- Mapped activity to MITRE ATT&CK techniques
+
+### Planned Scenarios
+- Suspicious PowerShell execution
+- Suspicious outbound network traffic
+- IOC investigation and detection analysis
+
+---
+
+## Automation
+
+This project includes Python-based log generation and analysis scripts used to simulate and investigate security events.
+
+### Current Automation
+- Simulated failed login log generation
+- Automated failed login analysis
+- Suspicious IP identification
+- Authentication event summarization
+
+### Example Script Execution
+
+```bash
+python scripts/analyze_failed_logins.py
+
 ## Skills Demonstrated
 
 - Security event triage
