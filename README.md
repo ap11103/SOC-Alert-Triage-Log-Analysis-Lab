@@ -63,6 +63,7 @@ This project includes Python-based log generation and analysis scripts used to s
 
 ```bash
 python scripts/analyze_failed_logins.py
+```
 
 ## Skills Demonstrated
 
